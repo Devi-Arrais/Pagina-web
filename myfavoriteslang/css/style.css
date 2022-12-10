@@ -1,0 +1,134 @@
+/* 
+ESSA CLASSE NÃO SERVE DE NADA,
+APENAS PARA VOCÊS VEREM OS HEXAS
+DAS CORES DO LAYOUT 
+*/
+.cores{
+    color: #4A56F9;
+    color: #BE123C;
+    color: #1F2937;
+    color: #F1F5F9;
+    color: #64748B;
+    color: #3A5479
+}
+
+/*
+################### 
+################### 
+SEU CÓDIGO 
+DAQUI PARA BAIXO 
+##################
+##################
+*/
+
+header{
+    display: flex;
+    flex-direction: row;
+    background-color: #F1F5F9;
+}
+
+.container .user{
+    position: relative;
+    left: 990px;
+    display: flex;
+    flex-direction: row;
+    top: -30px;
+}
+
+.container .logo{
+    position: relative;
+    left: 110px;
+    top: 20px;
+}
+
+.container .user section{
+    margin-left: 10px;
+}
+
+.container-main{
+    padding-left: 500px;
+    padding-top: 100px;
+
+}
+
+input[type=text]{
+    height: 40px;
+    width: 250px;
+    background-color: #64748B;
+    border-style: none;
+}
+input[type=submit]{
+    height: 40px;
+    width: 100px;
+    border-style: none;
+    background-color: #4A56F9;
+    font-size: large;
+    color: #F1F5F9;
+}
+
+ul{
+    margin: -20px;
+    margin-top: 20px;
+}
+ul li{
+    display: flex;
+    flex-direction: row;
+    background-color: #F1F5F9;
+    margin: 16px;
+    height: 80px;
+    width: 400px;
+ 
+}
+
+ul li figure{
+    margin: 10px;
+    margin-top: 20px;
+}
+
+ul li section{
+    margin: 5px;
+    margin-top: 20px;
+}
+
+ul li section h4{
+    color: #1F2937;
+    font-size: 23px;
+}
+ul li section p{
+    font-size: 15px;
+}
+ul li section h3{
+    font-size: 40px;
+
+}
+
+/* tive que colocar uma classe nas notas pois não conseguir por :nth-child() 
+ e do jeito que vc queria que colocasse o nome da classe não deu certo pois e 
+ preciso colocar primeiro algum nome depois os numeros */
+
+.not1-37021100{
+    margin-left: 75px;
+    color: #BE123C;
+}
+.not2-37021100{
+    margin-left: 75px;
+    color: #BE123C;
+}
+.not3-37021100{
+    margin-left: 60px;
+    color: #4A56F9;
+}
+.not4-37021100{
+    margin-left: 60px;
+    color: #4A56F9;
+}
+.not5-37021100{
+    margin-left: 60px;
+    color: #4A56F9;
+}
+
+footer{
+    margin-top: 200px;
+    margin-left: 460px;
+    color: #3A5479;
+}
